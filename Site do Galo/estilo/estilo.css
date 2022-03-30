@@ -1,0 +1,267 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+label.logo{
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 100px;
+    line-height: 100px;
+    z-index: 1;
+    
+}
+.socio a{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: none;
+    color: #ffd900;
+    font-family: monospace;
+    font-size: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffd900;
+}
+.socio a:hover{
+
+    color: black;
+    background-color: #ffd900;
+}
+
+  
+nav{
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    height: 120px;
+    
+
+}
+
+nav ul{
+    
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 10px;
+}
+nav ul li a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    transition: .5s;
+    color: white;
+
+}
+ a:hover{
+    
+    background-color: rgb(37, 36, 36);
+}
+
+.logo img{
+    width: 10%;
+    z-index: 1;
+    
+}
+
+.logo a:hover{
+    background-color:transparent;
+}
+
+
+
+.imagem{
+    display: block;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 200px;
+    height: 400px;
+}
+    
+
+
+
+
+.par{
+    background-image:url("../imagem/torcida.jpeg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.par img{
+    width: 100%;
+    height: 600px;
+    z-index: 0;
+}
+
+.par div{
+    text-align: center;
+    padding: 300px;
+    color: white;
+    font-size: 50px;
+    font-family: 'noto';
+}
+
+
+h3{
+    text-align: center;
+    font-size: 50px;
+    color: cornsilk;
+}
+footer{
+    
+    background-image: url(../imagem/tela.png);
+    height: 600px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 80px;
+}
+
+
+
+
+p{
+    margin-left: 10px;
+}
+
+.jogo{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color: yellow;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+
+}
+.partida{
+    background-size: cover;
+    height: 250px;
+    background-color: rgb(206, 187, 187);
+    background-image: url("../imagem/bandeira.jpeg");
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.part{
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.part h2{
+    font-weight: 100;
+}
+p{
+    margin-left: 0px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+
+
+.destaque {
+    
+    font-size: 30px;
+    font-family: 'Roboto',sans-serif;
+    padding-left: 2px;
+    padding-top: 7px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ffd900;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 50px;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+
+
+
+}
+    
+
+.gallery{
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 33px;
+
+    
+}
+.controls a:hover{
+    background-color: transparent;
+
+}
+
+.captura{
+    height: 454px;
+    margin-top: 25px;
+
+}
+.captura img{
+    padding-bottom: 0px;
+}
+ 
+.destaq{
+font-size: 30px;
+font-family: 'roboto', sans-serif;
+padding-left: 2px;
+padding-top: 7px;
+margin-top: 20px;
+margin-left: 40px;
+border-width: 4px;
+border-style: solid;
+border-color: #ffd900;
+border-right: none;
+border-bottom: none;
+border-top: none;
+
+
+}
+h5{
+font-weight: 100;
+}
+
+.img1{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-right: 50px;
+    box-shadow: 10px 5px 5px rgb(160, 153, 153);
+}
+.img2{
+    display: inline-block;
+    box-shadow: 10px 5px 5px rgb(160, 153, 153);
+}
+
+.img3{
+    display: inline-block;
+    margin-left: 50px;
+    box-shadow: 10px 5px 5px rgb(160, 153, 153);
+}
+.img3 img{
+    width: 380px;
+    height: 330px;
+}
+
